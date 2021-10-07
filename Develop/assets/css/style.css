@@ -19,8 +19,8 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Modifying name of class to reflect the style */
+.header h1 .gray-text {
     color: #d9dcd6;
 }
 
@@ -86,32 +86,13 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidating repetitive styles into one class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Consolidating repetitive h3 styles into one class */
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
